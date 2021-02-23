@@ -161,7 +161,7 @@
 .page-entry .breadcrumb {
   margin-bottom:0px;
 }
-/* パンくずリスト先頭の色を変更する */
+/* パンくずリスト先頭の色を黒に変更する */
 .breadcrumb-link {
   color: #3f3f3f;
   font-weight: bold;
