@@ -1,2 +1,2 @@
 # github.io
-input test
+This site is Hatena Blog's CSS site.
