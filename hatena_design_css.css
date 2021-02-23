@@ -143,12 +143,12 @@
 
 /* --- 個人設定 ここから --- */
 
-/* グローバルメニュー下の隙間を無くす */
+/* グローバルメニュー下の隙間をゼロにする */
 #top-editarea {
   margin-bottom: 0px;
 }
 /* 記事上部に表示されている階層化カテゴリの表示を修正する */
-/* パンくずリスト上下の隙間を無くす #top-box */
+/* パンくずリスト上下の隙間をゼロにする #top-box */
 #top-box {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -157,7 +157,7 @@
   line-height: 2.0;
   padding: 5px;
 }
-/* パンくずリスト上下の隙間を無くす .breadcrumb */
+/* パンくずリスト上下の隙間をゼロにする .breadcrumb */
 .page-entry .breadcrumb {
   margin-bottom:0px;
 }
