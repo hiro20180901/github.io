@@ -1,0 +1,35 @@
+<!-- lazy -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
+<script>
+
+$(".hatena-fotolife").addClass("lozad");
+
+$(".hatena-fotolife").each(function(i, img) {
+    $(img).attr("data-src", ""+$(img).attr("src")+"");
+    $(img).attr("src", "");
+});
+
+$(".urllist-image").addClass("lozad");
+
+$(".urllist-image").each(function(i, img) {
+    $(img).attr("data-src", ""+$(img).attr("src")+"");
+    $(img).attr("src", "");
+});
+
+const observer = lozad('.lozad', {
+rootMargin: '200px 0px'
+});
+observer.observe();
+</script>
+<!-- lazy -->
+
+<!-- カテゴリ階層化  -->
+
+<!-- jQuery は head で有効にしている
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+-->
+<script src="https://hatena.wackwack.net/v1.1/js/breadcrumb.min.js"></script>
+<script src="https://hatena.wackwack.net/v1.1/js/category_archive.min.js"></script>
+
+<!-- カテゴリ階層化  -->
