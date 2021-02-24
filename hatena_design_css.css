@@ -195,4 +195,13 @@
   margin: 0 2px;
 }
 
+/* 文字サイズを大きくする */
+.entry-content p {
+  font-size: 17px;
+}
+/* 行の高さを変更する */
+.entry-contnt {
+  line-height: 2em;
+}
+
 /* --- 個人設定 ここまで --- */
