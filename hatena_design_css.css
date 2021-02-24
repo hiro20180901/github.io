@@ -199,4 +199,17 @@
 .entry-content p {
   font-size: 16px;
 }
+/* ### ヘッダーの背景色 ### */
+#blog-title{
+  background: #41C7AE !important;
+  }
+  /* ### ブログタイトルの文字色 ### */
+  #title a{
+  color: white !important;
+  }
+  /* ### ブログ説明の文字色 ### */
+  #blog-description{
+  color:white !important;
+  }
+
 /* --- 個人設定 ここまで --- */
