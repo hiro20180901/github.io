@@ -1,33 +1,41 @@
 <!-- カテゴリ階層化 -->
 
-<link type="text/css" rel="stylesheet" href="https://hatena.wackwack.net/v1.1/css/fulldisplay.min.css"/>
+<link type="text/css" rel="stylesheet" href="https://hatena.wackwack.net/v1.1/css/fulldisplay.min.css" />
 
 <!-- カテゴリ階層化 ここまで -->
 
 <nav id="gnav">
-	<div class="gnav-inner" id="menu-scroll">
-		<div class="menu"><a href="https://hiro20180901.hatenadiary.jp/"><i class="fa fa-home" aria-hidden="true"></i> HOME</a></div>
-    <div class="menu"><a href="URL"><i class="fa fa-info-circle" aria-hidden="true"></i> ABOUT</a></div>
-    <div class="menu"><a href="URL"><i class="fa fa-bolt" aria-hidden="true"></i> TIPS</a></div>
-    <div class="menu"><a href="URL"><i class="fa fa-graduation-cap" aria-hidden="true"></i> STUDY</a></div>
-    <div class="menu"><a href="URL"><i class="fa fa-wrench" aria-hidden="true"></i> プライバシーポリシー</a></div>
-    <div class="menu"><a href="URL"><i class="fa fa-envelope-o" aria-hidden="true"></i> お問い合わせ</a></div>
-	</div>
+    <div class="gnav-inner" id="menu-scroll">
+        <div class="menu"><a href="https://hiro20180901.hatenadiary.jp/"><i class="fa fa-home" aria-hidden="true"></i>
+                HOME</a></div>
+        <div class="menu"><a href="https://hiro20180901.hatenadiary.jp/about"><i class="fa fa-info-circle"
+                    aria-hidden="true"></i> ABOUT</a></div>
+        <div class="menu"><a href="https://hiro20180901.hatenadiary.jp/archive/category/HOME%20DIY"><i
+                    class="fa fa-bolt" aria-hidden="true"></i> HOME DIY</a></div>
+        <div class="menu"><a href="https://hiro20180901.hatenadiary.jp/archive/category/PC"><i
+                    class="fa fa-graduation-cap" aria-hidden="true"></i> PC</a></div>
+        <div class="menu"><a href="https://hiro20180901.hatenadiary.jp/archive/category/NAS"><i
+                    class="fa fa-graduation-cap" aria-hidden="true"></i> NAS</a></div>
+        <div class="menu"><a href="https://hiro20180901.hatenadiary.jp/entry/privacypolicy"><i class="fa fa-wrench"
+                    aria-hidden="true"></i> プライバシーポリシー</a></div>
+        <div class="menu"><a href="https://hiro20180901.hatenadiary.jp/entry/contactus"><i class="fa fa-envelope-o"
+                    aria-hidden="true"></i> お問い合わせ</a></div>
+    </div>
 </nav>
 
 <script type="text/javascript">
-/* ### ページ更新時に少しスライドさせる ### */
-window.onload = function () {
-  autoScroll();
-}
-var $scrollX = 0;
-var $speed=0;
-function autoScroll() {
-  var $sampleBox = document.getElementById( "menu-scroll" );
-  $sampleBox.scrollLeft = ++$scrollX;
-  $speed+=3;
-  if( $scrollX < 50 ){
-    setTimeout( "autoScroll()", $speed );
-  }
-}
+    /* ### ページ更新時に少しスライドさせる ### */
+    window.onload = function () {
+        autoScroll();
+    }
+    var $scrollX = 0;
+    var $speed = 0;
+    function autoScroll() {
+        var $sampleBox = document.getElementById("menu-scroll");
+        $sampleBox.scrollLeft = ++$scrollX;
+        $speed += 3;
+        if ($scrollX < 50) {
+            setTimeout("autoScroll()", $speed);
+        }
+    }
 </script>
